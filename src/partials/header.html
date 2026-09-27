@@ -1,0 +1,19 @@
+<div class="demo-bar" role="note">
+  <strong>Propuesta de demostración no oficial</strong>
+  <span>Boceto no solicitado, creado a partir de datos públicos de {{name}}. No es la web definitiva del negocio.</span>
+</div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="index.html" aria-label="{{name}} · inicio">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="4" width="26" height="32" rx="3" fill="{{theme.accent}}"/><rect x="5" y="4" width="6" height="32" rx="3" fill="{{theme.accentDark}}"/><rect x="15" y="12" width="12" height="2.5" rx="1.2" fill="{{theme.gold}}"/><rect x="15" y="17" width="9" height="2" rx="1" fill="{{theme.gold}}" opacity=".7"/><path d="M31 8h2.5a1.5 1.5 0 0 1 1.5 1.5v24A1.5 1.5 0 0 1 33.5 35H9" fill="none" stroke="{{theme.ink}}" stroke-width="2" stroke-linecap="round"/></svg>
+      <span class="brand-text"><span class="brand-name">{{name}}</span><small>{{address.city}} · desde {{since}}</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav id="nav" class="nav" aria-label="Principal">
+      <a href="index.html" data-nav="index">Inicio</a>
+      <a href="servicios.html" data-nav="servicios">Servicios</a>
+      <a href="contacto.html" data-nav="contacto">Contacto</a>
+      <a class="btn btn-sm btn-gold nav-cta" href="contacto.html#presupuesto">Pedir presupuesto</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,81 @@
+<section class="page-hero">
+  <div class="wrap" data-reveal>
+    <p class="eyebrow">Contacto</p>
+    <h1>Pide presupuesto o cita previa</h1>
+    <p class="lead">Rellena el formulario y te responderemos en un plazo máximo de 24 horas laborables.</p>
+  </div>
+</section>
+
+<section class="section" id="presupuesto">
+  <div class="wrap contact-grid">
+    <div class="form-card" data-reveal>
+      <h2>Solicitar presupuesto</h2>
+      <p class="demo-note">Formulario de demostración: no envía ningún dato.</p>
+      <form class="form" data-demo-form novalidate>
+        <div class="row">
+          <label>Nombre<input name="nombre" autocomplete="name" required></label>
+          <label>Teléfono<input name="telefono" type="tel" autocomplete="tel"></label>
+        </div>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <div class="row">
+          <label>Tipo de trabajo
+            <select name="trabajo"><option value="tesis">Tesis doctoral</option><option value="tfm">TFM</option><option value="tfg">TFG</option><option value="3d">Impresión 3D</option><option value="otro">Otro trabajo personalizado</option></select>
+          </label>
+          <label>Nº de páginas (aprox.)<input name="paginas" type="number" min="1" inputmode="numeric"></label>
+        </div>
+        <div class="row three">
+          <label>Encuadernación
+            <select name="tapa"><option value="dura">Tapa dura</option><option value="blanda">Tapa blanda</option></select>
+          </label>
+          <label>Laminado
+            <select name="laminado"><option value="mate">Mate anti-rayas</option><option value="brillo">Brillo</option></select>
+          </label>
+          <label>Papel
+            <select name="papel"><option value="offset">Offset 100 g</option><option value="estucado">Estucado mate 130 g</option><option value="roto">Blanco roto 90 g</option></select>
+          </label>
+        </div>
+        <label>Mensaje<textarea name="mensaje" rows="4"></textarea></label>
+        <label class="check"><input type="checkbox" name="privacidad" required><span>He leído y acepto la política de privacidad</span></label>
+        <button class="btn btn-accent" type="submit">Enviar solicitud</button>
+        <p class="form-msg" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+
+    <aside class="info" data-reveal>
+      <h2>Datos de contacto</h2>
+      <ul class="facts">
+        <li><strong>Teléfono</strong><a href="tel:{{phoneTel}}">{{phone}}</a></li>
+        <li><strong>Email</strong><a href="mailto:{{email}}">{{email}}</a></li>
+        <li><strong>Dirección</strong>{{fullAddress}}</li>
+        <li><strong>Horario</strong>{{hours}}</li>
+      </ul>
+      <div class="cta-row"><a class="btn btn-gold" href="tel:{{phoneTel}}">Llamar ahora</a><a class="btn btn-outline" href="{{mapLink}}" target="_blank" rel="noopener">Cómo llegar</a></div>
+    </aside>
+  </div>
+</section>
+
+<section class="section tinted" id="cita">
+  <div class="wrap two-col">
+    <div class="form-card" data-reveal>
+      <h2>Cita previa en el taller</h2>
+      <p>Atención personalizada en {{address.city}}: resuelve tus dudas, revisamos tus archivos y ves muestras de encuadernación y papeles.</p>
+      <p class="demo-note">Formulario de demostración: no envía ningún dato.</p>
+      <form class="form" data-demo-form novalidate>
+        <label>Nombre<input name="nombre" autocomplete="name" required></label>
+        <div class="row">
+          <label>Teléfono<input name="telefono" type="tel" autocomplete="tel" required></label>
+          <label>Día preferido<input name="dia" type="date"></label>
+        </div>
+        <label>Franja horaria
+          <select name="franja"><option>Mañana (9:00–14:00)</option><option>Tarde (14:00–19:00)</option></select>
+        </label>
+        <label class="check"><input type="checkbox" name="privacidad" required><span>He leído y acepto la política de privacidad</span></label>
+        <button class="btn btn-accent" type="submit">Solicitar cita</button>
+        <p class="form-msg" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+    <div class="map tall" data-reveal>
+      <iframe title="Mapa de {{name}} en {{address.city}}" src="{{mapEmbed}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>

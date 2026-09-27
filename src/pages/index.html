@@ -1,0 +1,250 @@
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy" data-reveal>
+      <p class="eyebrow">Impresión digital · Encuadernación · Impresión 3D · {{address.city}}</p>
+      <h1>{{tagline}}</h1>
+      <p class="lead">{{subtagline}} Imprimimos y encuadernamos tesis doctorales, TFM y TFG con plazo de entrega y calidad garantizados.</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href="contacto.html#presupuesto">Pedir presupuesto</a>
+        <a class="btn btn-ghost" href="tel:{{phoneTel}}">Llamar al {{phone}}</a>
+      </div>
+      <ul class="chips" aria-label="Incluido sin coste">
+        <li>Diseño de portada gratis</li>
+        <li>Envío gratis</li>
+        <li>Revisión de archivos gratis</li>
+      </ul>
+    </div>
+    <div class="hero-art" data-reveal>
+      <div class="stage" data-tilt>
+        <div class="book" data-bind="dura" data-lam="mate">
+          <div class="face back"></div>
+          <div class="face spine"></div>
+          <div class="face pages"></div>
+          <div class="face front">
+            <span class="foil"></span>
+            <p class="cv-uni">Nombre de la universidad</p>
+            <p class="cv-title">Título de tu tesis doctoral</p>
+            <p class="cv-author">Autor/a · Año</p>
+            <span class="gloss"></span>
+          </div>
+        </div>
+        <div class="shadow"></div>
+      </div>
+      <p class="art-note">Ilustración provisional</p>
+    </div>
+  </div>
+</section>
+
+<section class="strip">
+  <ul class="wrap strip-in">
+    <li><strong>Desde {{since}}</strong><span>diseñando, imprimiendo y encuadernando tesis</span></li>
+    <li><strong>Impresión 3D</strong><span>además de impresión y encuadernación</span></li>
+    <li><strong>4 días laborables</strong><span>plazo estándar, más 1 día de envío</span></li>
+    <li><strong>Atención en {{address.city}}</strong><span>con cita previa en nuestro local</span></li>
+  </ul>
+</section>
+
+<section class="section" id="que-hacemos">
+  <div class="wrap">
+    <header class="sec-head" data-reveal>
+      <p class="eyebrow">Qué hacemos</p>
+      <h2>Tu trabajo, en papel y para siempre</h2>
+      <p>Del archivo en pantalla al libro encuadernado. Nos ocupamos de todo el proceso, con trato cercano.</p>
+    </header>
+    <div class="cards four">
+      <article class="card" data-reveal>
+        <svg class="ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 5h16a3 3 0 0 1 3 3v19H9a3 3 0 0 1-3-3V5z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 11h9M11 15h9M11 19h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Tesis doctorales</h3>
+        <p>Nuestra especialidad: encuadernación en tapa dura o tapa blanda, con costura y portada personalizada.</p>
+        <a class="more" href="servicios.html">Ver acabados <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="card" data-reveal>
+        <svg class="ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4 3 10l13 6 13-6-13-6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 14v6c0 2 3.6 4 8 4s8-2 8-4v-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <h3>TFM y TFG</h3>
+        <p>Trabajos fin de máster y fin de grado con acabado profesional, listos para entregar en tu facultad.</p>
+        <a class="more" href="servicios.html">Ver acabados <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="card" data-reveal>
+        <svg class="ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 26 5 20 21 4l6 6L11 26H5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M17 8l6 6" stroke="currentColor" stroke-width="2"/></svg>
+        <h3>Trabajos personalizados</h3>
+        <p>Docencias y encargos totalmente a medida. Cuéntanos qué necesitas y lo estudiamos contigo.</p>
+        <a class="more" href="contacto.html#presupuesto">Consultar <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="card" data-reveal>
+        <svg class="ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 4 9.5v13L16 29l12-6.5v-13L16 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 9.5 16 16l12-6.5M16 16v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <h3>Impresión 3D</h3>
+        <p>Da forma física a tus ideas: piezas, prototipos y maquetas impresos capa a capa.</p>
+        <a class="more" href="#impresion-3d">Descubrir <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section tinted" id="configurador">
+  <div class="wrap conf">
+    <div class="conf-copy" data-reveal>
+      <p class="eyebrow">Prueba las combinaciones</p>
+      <h2>Diseña tu encuadernación</h2>
+      <p>Elige tapa, laminado y papel y mira cómo quedaría. Después, pide presupuesto con tu combinación ya preparada.</p>
+
+      <fieldset class="opt" data-group="tapa">
+        <legend>Encuadernación</legend>
+        <label><input type="radio" name="tapa" value="dura" checked><span>Tapa dura</span></label>
+        <label><input type="radio" name="tapa" value="blanda"><span>Tapa blanda</span></label>
+      </fieldset>
+      <fieldset class="opt" data-group="laminado">
+        <legend>Laminado de portada</legend>
+        <label><input type="radio" name="laminado" value="mate" checked><span>Mate anti-rayas</span></label>
+        <label><input type="radio" name="laminado" value="brillo"><span>Brillo</span></label>
+      </fieldset>
+      <fieldset class="opt" data-group="papel">
+        <legend>Papel interior</legend>
+        <label><input type="radio" name="papel" value="offset" checked><span>Offset 100 g</span></label>
+        <label><input type="radio" name="papel" value="estucado"><span>Estucado mate 130 g</span></label>
+        <label><input type="radio" name="papel" value="roto"><span>Blanco roto 90 g</span></label>
+      </fieldset>
+    </div>
+
+    <div class="conf-view" data-reveal>
+      <div class="stage" data-tilt>
+        <div class="book" id="confBook" data-bind="dura" data-lam="mate">
+          <div class="face back"></div>
+          <div class="face spine"></div>
+          <div class="face pages"></div>
+          <div class="face front">
+            <span class="foil"></span>
+            <p class="cv-uni">Nombre de la universidad</p>
+            <p class="cv-title">Título de tu tesis doctoral</p>
+            <p class="cv-author">Autor/a · Año</p>
+            <span class="gloss"></span>
+          </div>
+        </div>
+        <div class="shadow"></div>
+      </div>
+      <div class="summary" aria-live="polite">
+        <h3 id="sumTitle">Tapa dura · Laminado mate</h3>
+        <p id="sumTapa"></p>
+        <p id="sumLam"></p>
+        <p id="sumPapel"></p>
+        <a class="btn btn-gold" id="sumCta" href="contacto.html#presupuesto">Pedir presupuesto con esta combinación</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="incluido">
+  <div class="wrap">
+    <header class="sec-head" data-reveal>
+      <p class="eyebrow">Sin coste adicional</p>
+      <h2>Lo importante ya está incluido</h2>
+    </header>
+    <div class="cards three">
+      <details class="card acc" data-reveal open>
+        <summary><span class="badge">Gratis</span><h3>Diseño de portada</h3></summary>
+        <p>Nuestros diseñadores crearán una portada especialmente para ti, según tus gustos y necesidades. Si ya tienes un diseño hecho, envíanoslo y lo adaptaremos a los requerimientos técnicos del tipo de portada.</p>
+      </details>
+      <details class="card acc" data-reveal>
+        <summary><span class="badge">Gratis</span><h3>Revisión de archivos</h3></summary>
+        <ul class="ticks">
+          <li>Capítulos que empiezan en página impar</li>
+          <li>Posición de la paginación</li>
+          <li>Negros puros en textos, dibujos y fotos</li>
+          <li>Transparencias acopladas</li>
+          <li>Color convertido a CMYK</li>
+          <li>Tipografías incrustadas</li>
+        </ul>
+      </details>
+      <details class="card acc" data-reveal>
+        <summary><span class="badge">Gratis</span><h3>Envío</h3></summary>
+        <p>Plazo estándar de 4 días laborables, más 1 día de envío. A tu domicilio o directamente en la universidad, en varias direcciones o en otros países europeos. También puedes recogerlo en nuestro local.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section tinted" id="impresion-3d">
+  <div class="wrap visit">
+    <div class="print3d" data-reveal aria-hidden="true">
+      <svg viewBox="0 0 240 260">
+        <rect x="20" y="236" width="200" height="8" rx="4" fill="var(--ink)" opacity=".85"/>
+        <g class="layers" fill="var(--accent)">
+          <rect style="--i:0" x="88" y="222" width="64" height="12" rx="3"/>
+          <rect style="--i:1" x="82" y="210" width="76" height="12" rx="3"/>
+          <rect style="--i:2" x="74" y="198" width="92" height="12" rx="3"/>
+          <rect style="--i:3" x="68" y="186" width="104" height="12" rx="3"/>
+          <rect style="--i:4" x="66" y="174" width="108" height="12" rx="3"/>
+          <rect style="--i:5" x="70" y="162" width="100" height="12" rx="3"/>
+          <rect style="--i:6" x="80" y="150" width="80" height="12" rx="3"/>
+          <rect style="--i:7" x="92" y="138" width="56" height="12" rx="3"/>
+          <rect style="--i:8" x="98" y="126" width="44" height="12" rx="3"/>
+          <rect style="--i:9" x="94" y="114" width="52" height="12" rx="3"/>
+          <rect style="--i:10" x="86" y="102" width="68" height="12" rx="3"/>
+        </g>
+        <g class="head">
+          <rect x="30" y="72" width="180" height="8" rx="4" fill="var(--ink)"/>
+          <rect x="106" y="62" width="28" height="30" rx="5" fill="var(--ink-soft)"/>
+          <path d="M120 92v10" stroke="var(--gold)" stroke-width="5" stroke-linecap="round"/>
+        </g>
+      </svg>
+      <p class="art-note dark-note">Ilustración provisional</p>
+    </div>
+    <div data-reveal>
+      <p class="eyebrow">También en el taller</p>
+      <h2>Impresión 3D: de la idea a la pieza</h2>
+      <p>Además de encuadernar, imprimimos en 3D. Piezas, prototipos y maquetas, capa a capa, con la misma atención personalizada de siempre.</p>
+      <p class="demo-note">Texto provisional: el negocio confirmará materiales, tamaños y plazos.</p>
+      <div class="cta-row">
+        <a class="btn btn-accent" href="contacto.html?trabajo=3d#presupuesto">Pedir presupuesto 3D</a>
+        <a class="btn btn-outline" href="servicios.html#p-3d">Más información</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="proceso">
+  <div class="wrap">
+    <header class="sec-head" data-reveal>
+      <p class="eyebrow">Cómo funciona</p>
+      <h2>De tu archivo a tu libro, en cuatro pasos</h2>
+    </header>
+    <ol class="steps">
+      <li data-reveal><span class="n">1</span><h3>Haz tu pedido</h3><p>Online, por teléfono, por email o por WhatsApp.</p></li>
+      <li data-reveal><span class="n">2</span><h3>Revisamos tus archivos</h3><p>Comprobamos paginación, color, tipografías y transparencias.</p></li>
+      <li data-reveal><span class="n">3</span><h3>Imprimimos y encuadernamos</h3><p>Trabajo artesanal, con costura, en un plazo estándar de 4 días laborables.</p></li>
+      <li data-reveal><span class="n">4</span><h3>Recíbelo o recógelo</h3><p>Envío (1 día) a tu casa o a la universidad, o recogida en nuestro local.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="taller">
+  <div class="wrap visit">
+    <div data-reveal>
+      <p class="eyebrow">Atención personalizada en {{address.city}}</p>
+      <h2>Ven a vernos al taller</h2>
+      <p>Con cita previa, en una sola visita resolverás todas tus dudas, revisaremos tus archivos y pondremos en marcha tu proyecto. Además podrás ver muestras de encuadernación y los papeles disponibles.</p>
+      <ul class="facts">
+        <li><strong>Dirección</strong>{{fullAddress}}</li>
+        <li><strong>Horario</strong>{{hours}}</li>
+        <li><strong>Teléfono</strong><a href="tel:{{phoneTel}}">{{phone}}</a></li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn btn-accent" href="contacto.html#cita">Pedir cita previa</a>
+        <a class="btn btn-outline" href="{{mapLink}}" target="_blank" rel="noopener">Cómo llegar</a>
+      </div>
+    </div>
+    <div class="map" data-reveal>
+      <iframe title="Mapa de {{name}} en {{address.city}}" src="{{mapEmbed}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="wrap" data-reveal>
+    <h2>Tu tesis merece un acabado a la altura de tu esfuerzo.</h2>
+    <p>Cuéntanos tu proyecto y te respondemos en un plazo máximo de 24 horas laborables.</p>
+    <div class="cta-row center">
+      <a class="btn btn-gold" href="contacto.html#presupuesto">Pedir presupuesto</a>
+      <a class="btn btn-ghost" href="tel:{{phoneTel}}">{{phone}}</a>
+    </div>
+  </div>
+</section>

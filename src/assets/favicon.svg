@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="{{theme.ink}}"/><rect x="10" y="7" width="20" height="26" rx="2.5" fill="{{theme.accent}}"/><rect x="10" y="7" width="5" height="26" rx="2.5" fill="{{theme.accentDark}}"/><rect x="18" y="14" width="9" height="2.4" rx="1.2" fill="{{theme.gold}}"/></svg>

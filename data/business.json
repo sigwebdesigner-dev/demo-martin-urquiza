@@ -1,0 +1,34 @@
+{
+  "name": "Martín Urquiza",
+  "legalName": "Encuadernaciones Martín Urquiza",
+  "category": "Taller de impresión, encuadernación e impresión 3D",
+  "tagline": "Tu tesis, encuadernada como merece.",
+  "subtagline": "Años de investigación merecen una encuadernación a la altura.",
+  "since": "1991",
+  "address": {
+    "street": "Avda. Madrid nº 20, local 4-5",
+    "postalCode": "18012",
+    "city": "Granada",
+    "country": "España"
+  },
+  "phone": "958 278 599",
+  "phoneTel": "+34958278599",
+  "email": "pedidos@martinurquiza.com",
+  "hours": "Lunes a Viernes de 9:00 a 19:00 h",
+  "hoursShort": "L–V · 9:00–19:00",
+  "facebook": "https://www.facebook.com/tallerdeimpresionmartinurquiza",
+  "currentWeb": "https://tesisonline.es/",
+  "mapQuery": "Avda. Madrid 20, 18012 Granada, España",
+  "theme": {
+    "ink": "#14213d",
+    "inkSoft": "#22335c",
+    "accent": "#8a2434",
+    "accentDark": "#6b1a28",
+    "gold": "#c8963e",
+    "cream": "#faf6ee",
+    "paper": "#fffdf8",
+    "text": "#1c1f2a",
+    "muted": "#5b6070",
+    "line": "#e6dfcf"
+  }
+}

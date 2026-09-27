@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand">{{name}}</p>
+      <p>{{category}}<br>{{legalName}}</p>
+    </div>
+    <div>
+      <p class="foot-h">Visítanos</p>
+      <address>{{address.street}}<br>{{address.postalCode}} {{address.city}}</address>
+      <p>{{hours}}<br>Con cita previa</p>
+    </div>
+    <div>
+      <p class="foot-h">Contacto</p>
+      <p><a href="tel:{{phoneTel}}">{{phone}}</a><br><a href="mailto:{{email}}">{{email}}</a></p>
+      <p><a href="{{facebook}}" rel="noopener" target="_blank">Facebook</a></p>
+    </div>
+  </div>
+  <div class="wrap foot-demo">
+    <p><strong>Propuesta de demostración no oficial.</strong> Esta página es un boceto no solicitado, creado con datos públicos del negocio para que pueda valorar cómo podría ser su nueva web. Textos, imágenes ilustrativas y formularios son provisionales; los formularios no envían nada. La web oficial actual es <a href="{{currentWeb}}" rel="noopener" target="_blank">tesisonline.es</a>.</p>
+  </div>
+</footer>
+<a class="fab-call" href="tel:{{phoneTel}}" aria-label="Llamar al {{phone}}">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z" fill="currentColor"/></svg>
+  <span>Llamar</span>
+</a>

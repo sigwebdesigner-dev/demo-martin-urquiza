@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{pageTitle}}</title>
+<meta name="description" content="{{pageDesc}}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="{{pageTitle}}">
+<meta property="og:description" content="{{pageDesc}}">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="{{theme.ink}}">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/main.js" defer></script>
+</head>
+<body data-page="{{page}}">
+<a class="skip" href="#main">Saltar al contenido</a>
+{{> header}}
+<main id="main">
+{{content}}
+</main>
+{{> footer}}
+<!-- ⚠️ SOLO DEMOS — eliminar este bloque íntegro al convertir en web definitiva -->
+<script>
+(function () {
+  const FECHA_DESPLIEGUE = "{{deployDate}}";
+  const DIAS_LIMITE = 10;
+
+  const limite = new Date(FECHA_DESPLIEGUE);
+  limite.setDate(limite.getDate() + DIAS_LIMITE);
+
+  if (new Date() > limite) {
+    document.body.innerHTML = `
+      <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;
+                  font-family:sans-serif;text-align:center;padding:2rem;">
+        <div>
+          <h1 style="font-size:1.5rem;margin-bottom:0.5rem;">Esta propuesta ya no está disponible</h1>
+          <p style="color:#666;">Si te interesa, contáctanos y la retomamos.</p>
+        </div>
+      </div>`;
+  }
+})();
+</script>
+<!-- FIN BLOQUE DEMO -->
+</body>
+</html>
